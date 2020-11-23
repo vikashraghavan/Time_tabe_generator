@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="pit_timetable">
+    <output-path>$PROJECT_DIR$/out/artifacts/pit_timetable</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="pit_timetable.jar">
+        <element id="module-output" name="pit_timetable" />
+      </element>
+      <element id="library" level="project" name="activation-1.1.1" />
+      <element id="file-copy" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar" />
+      <element id="library" level="project" name="poi-examples-4.1.0" />
+      <element id="library" level="project" name="xmlbeans-3.1.0" />
+      <element id="library" level="project" name="commons-collections4-4.1" />
+    </root>
+  </artifact>
+</component>

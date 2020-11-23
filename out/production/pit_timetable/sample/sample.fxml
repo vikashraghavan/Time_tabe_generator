@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="root" fx:id="root" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <BorderPane prefHeight="401.0" prefWidth="600.0">
+         <top>
+            <Label text="Timetable Generator" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="28.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="115.0" minHeight="0.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="242.0" minHeight="0.0" prefHeight="76.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="317.0" minHeight="10.0" prefHeight="190.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="317.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="prediods per day">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="20.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="nop" promptText="Enter no. of prediods" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <Label layoutX="10.0" layoutY="53.0" text="No. of teachers" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="20.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="not" layoutX="320.0" layoutY="20.0" promptText="Enter no. of teachers" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <Button fx:id="btn" alignment="BOTTOM_RIGHT" mnemonicParsing="false" onAction="#btnclick" text="next" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets left="225.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Label layoutX="30.0" layoutY="67.0" text="No. of classes" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="noc" layoutX="320.0" layoutY="72.0" promptText="Enter no. of classes" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+               </children>
+               <BorderPane.margin>
+                  <Insets top="30.0" />
+               </BorderPane.margin>
+            </GridPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

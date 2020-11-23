@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="pit_timetable.jnlp">
+  <information>
+    <title>pit_timetable</title>
+    <vendor>Unknown</vendor>
+    <description>pit_timetable</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="activation-1.1.1.jar" size="69409" download="eager" />
+    <jar href="annotations-17.0.0.jar" size="19014" download="eager" />
+    <jar href="commons-codec-1.12.jar" size="339669" download="eager" />
+    <jar href="commons-collections4-4.1.jar" size="751238" download="eager" />
+    <jar href="commons-collections4-4.3.jar" size="753996" download="eager" />
+    <jar href="commons-compress-1.18.jar" size="591748" download="eager" />
+    <jar href="commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="commons-math3-3.6.1.jar" size="2213560" download="eager" />
+    <jar href="jaxb-api-2.3.0.jar" size="125632" download="eager" />
+    <jar href="jaxb-core-2.3.0.1.jar" size="254858" download="eager" />
+    <jar href="jaxb-impl-2.3.0.1.jar" size="961128" download="eager" />
+    <jar href="junit-4.12.jar" size="314932" download="eager" />
+    <jar href="log4j-1.2.17.jar" size="489884" download="eager" />
+    <jar href="pit_timetable.jar" size="218561" download="eager" />
+    <jar href="poi-4.1.0.jar" size="2754042" download="eager" />
+    <jar href="poi-examples-4.1.0.jar" size="429463" download="eager" />
+    <jar href="poi-excelant-4.1.0.jar" size="31377" download="eager" />
+    <jar href="poi-ooxml-4.1.0.jar" size="1793185" download="eager" />
+    <jar href="poi-ooxml-schemas-4.1.0.jar" size="7784293" download="eager" />
+    <jar href="poi-scratchpad-4.1.0.jar" size="1555170" download="eager" />
+    <jar href="xmlbeans-3.1.0.jar" size="2579738" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="pit_timetable" />
+  <update check="background"/>
+</jnlp>

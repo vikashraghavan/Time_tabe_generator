@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rot" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Fsp">
+   <children>
+      <Label layoutX="35.0" layoutY="37.0" text="Upload File" />
+      <Button layoutX="35.0" layoutY="74.0" mnemonicParsing="false" onAction="#upbtn" text="Upload" />
+      <Button layoutX="513.0" layoutY="349.0" mnemonicParsing="false" onAction="#btnclick" text="Generate" />
+      <Label fx:id="fllb" layoutX="107.0" layoutY="78.0" />
+   </children>
+</AnchorPane>

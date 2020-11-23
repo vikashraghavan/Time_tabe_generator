@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/osgi/src/main/java" />
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/osgi/src/test/java" />
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/src/contrib/poi-ruby/java" />
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/src/examples/src" />
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/src/excelant/java" />
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/src/excelant/testcases" />
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/src/integrationtest" />
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/src/java" />
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/src/ooxml/java" />
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/src/ooxml/testcases" />
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/src/scratchpad/src" />
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/src/scratchpad/testcases" />
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/poi-4.1.0/src/testcases" />
+    </SOURCES>
+    <excluded>
+      <root url="jar://$USER_HOME$/Downloads/poi-src-4.1.0-20190412.zip!/" />
+    </excluded>
+  </library>
+</component>
