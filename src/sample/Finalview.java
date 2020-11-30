@@ -8,6 +8,8 @@ import javafx.scene.transform.Scale;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 
+import java.io.File;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -22,7 +24,12 @@ public class Finalview implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
 
         WebEngine engine=wv.getEngine();
-        engine.load("file:///C:/Users/aakas/IdeaProjects/pit_timetable/tst.html");
+        try {
+            engine.load(String.valueOf(new File("tst.html").toURI().toURL()));
+            System.out.println(String.valueOf(new File("\\tst.html").toURI().toURL()));
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
 
     }
     @FXML

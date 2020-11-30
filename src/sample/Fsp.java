@@ -35,7 +35,7 @@ public class Fsp implements Initializable {
 
     public void upbtn(ActionEvent event) {
         FileChooser fc=new FileChooser();
-        fc.setInitialDirectory(new File("C:\\"));
+        fc.setInitialDirectory(new File("\\"));
         File sf=fc.showOpenDialog(null);
         if(sf!=null){
             fllb.setText("Uploaded successfully "+sf.getName());
